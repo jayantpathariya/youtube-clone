@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "author": "Jayant Pathariya",
   "main": "index.js",
-  "devDependencies": {
-    "nodemon": "^3.1.4",
-    "prettier": "^3.3.2"
-  },
   "description": "a backend of youtube clone",
   "keywords": [
     "javascript",
@@ -20,8 +16,14 @@
   "type": "module",
   "dependencies": {
     "add": "^2.0.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
   }
 }

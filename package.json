@@ -1,20 +1,21 @@
 {
   "name": "youtube",
   "version": "1.0.0",
-  "description": "a backend of youtube clone",
+  "author": "Jayant Pathariya",
   "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "nodemon src/index.js"
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
   },
+  "description": "a backend of youtube clone",
   "keywords": [
     "javascript",
     "backend",
     "nodejs"
   ],
-  "author": "Jayant Pathariya",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  }
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "type": "module"
 }
